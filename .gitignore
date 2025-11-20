@@ -1,0 +1,74 @@
+###########################################################
+# OS / EDITOR JUNK
+###########################################################
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Common IDE/editor folders
+.vscode/
+.idea/
+*.code-workspace
+
+###########################################################
+# MATLAB-SPECIFIC FILES
+###########################################################
+# Autosave / backup files
+*.asv
+*.m~
+*.mdl~
+*.slx~
+*.bak
+
+# Generated binary artefacts
+*.mat
+*.fig
+*.mex*
+slprj/
+codegen/
+sccprj/
+
+# Live script autosaves
+*.mlx.autosave
+
+###########################################################
+# LOGS / TEMP
+###########################################################
+*.log
+*.tmp
+*.temp
+~$*
+
+###########################################################
+# PROJECT-SPECIFIC: GENERATED DATA & RESULTS
+#
+# We track:
+#   - all .m scripts in src/ and config/
+#   - README, report docs, etc.
+# We IGNORE:
+#   - any intermediate / processed data
+#   - model outputs, metrics, plots
+###########################################################
+
+# Any "interim" data folders in any project
+**/data/interim/
+
+# Any "processed" data folders in any project
+# (features, templates, trained models, EER tables, plots, etc.)
+**/data/processed/
+
+# Any generic results/metrics folders (Test_model_2)
+**/results/
+
+###########################################################
+# RAW DATA (OPTIONAL)
+#
+# If you do NOT want to track the original smartwatch
+# dataset in Git (because of size), uncomment this block.
+# Otherwise, leave it commented so raw_data/ is committed.
+###########################################################
+# **/data/raw_data/
+
